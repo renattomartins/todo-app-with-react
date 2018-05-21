@@ -1,6 +1,6 @@
 # To Do App with React
 
-A simple POC of a To Do web application using React, Node and MongoDB.
+A simple proof of concept of a To Do Web Application using React, Node and MongoDB.
 
 ## To run:
 1. Clone this project
