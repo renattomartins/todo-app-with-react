@@ -1,0 +1,9 @@
+.btn {
+    margin-right: 5px;
+}
+
+.markedAsDone {
+    text-decoration: line-through;
+    color: #ccc;
+    font-style: italic;
+}
