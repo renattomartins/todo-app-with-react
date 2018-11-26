@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 
 import Grid from '../template/grid'
 import IconButton from '../template/iconButton'
-import { changeDescription } from './todoActions'
+import { changeDescription, search } from './todoActions'
 
 const TodoForm = props => {
     const keyHandler = (e) => {
@@ -42,5 +42,5 @@ const TodoForm = props => {
 }
 
 const mapStateToProps = state => ({description: state.todo.description})
-const mapDispatchToProps = dispatch => bindActionCreators({ changeDescription }, dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({ changeDescription, search }, dispatch)
 export default connect(mapStateToProps, mapDispatchToProps)(TodoForm)
