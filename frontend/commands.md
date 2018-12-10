@@ -9,3 +9,4 @@
 1. `$ npm i --save-dev bootstrap@3.3.7 font-awesome@4.7.0`
 1. `$ npm i --save-dev react@15.4.2 react-dom@15.4.2 react-router@3.0.2 axios@0.15.3`
 1. `$ npm i --save-dev react-redux@5.0.2 redux@3.6.0`
+1. `npm i --save-dev redux-promise@0.5.3`
