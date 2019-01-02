@@ -19,7 +19,7 @@ class TodoForm extends Component {
     keyHandler(e) {
         const { add, search, description, clear } = this.props
         if (e.key === 'Enter') {
-            e.shiftKey ? search() : add(description)
+            e.shiftKey ? search(description) : add(description)
         } else if (e.key === 'Escape') {
             clear()
         }
@@ -44,7 +44,7 @@ class TodoForm extends Component {
                         onClick={() => add(description)}></IconButton>
                     <IconButton style='info'
                         icon='search'
-                        onClick={() => search()}></IconButton>
+                        onClick={() => search(description)}></IconButton>
                     <IconButton style='default'
                         icon='close'
                         onClick={clear}></IconButton>
